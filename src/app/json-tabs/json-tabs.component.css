@@ -1,0 +1,53 @@
+h3 {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.gridArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: auto;
+    grid-template-areas:  "listArea1  listArea2 ";
+    gap: 10px;
+}
+
+.common {
+    background-color:rgb(202, 168, 234); 
+    border: thick solid blueviolet; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center;
+}
+.listArea1 {
+    grid-area: listArea1; 
+    text-align: center;
+}
+.listArea2 {
+    grid-area: listArea2; 
+    text-align: center;
+}
+.list {
+    grid-area: list; 
+    text-align: center;
+}
+.list1 {
+    grid-area: list1; 
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    text-align:center;
+    cursor:pointer;
+    border-radius:4px;
+    background-color: lightgrey;
+    display:inline-block;
+    padding: 15px;
+    margin:5px;
+    box-shadow: 0 5px #999;
+}
+button:hover {
+    background-color: gray
+}

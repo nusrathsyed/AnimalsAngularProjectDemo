@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/*colours entire background light purple*/
+html {
+    background-color:rgb(202, 168, 234);
+}
+tr, td, th, table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:25%;
+    border:1px solid;
+}

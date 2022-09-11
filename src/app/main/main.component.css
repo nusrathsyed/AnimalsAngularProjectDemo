@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    margin:0;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.gridArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: auto;
+    grid-template-areas:  "imgArea1  imgArea2";
+    gap: 10px;
+}
+.common {
+    background-color: rgb(202, 168, 234);
+    border: thick solid blueviolet; 
+    padding: 10px; 
+    margin: 10px;
+    text-align: center;
+}
+.imgArea1 {
+    grid-area: imgArea1; 
+    text-align: center;
+    
+}
+.imgArea2 {
+    grid-area: imgArea2; 
+    text-align: center;
+}
