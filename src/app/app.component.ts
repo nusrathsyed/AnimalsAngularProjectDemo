@@ -32,7 +32,7 @@ export class AppComponent {
   c02 :Camel[] =aCamel.camel02;
   c03 :Camel[] =aCamel.camel03;
 
-  bio:Syednu = { sid:991627519, 
+  bio:Syednu = { sid:999999999, 
     sname: "Nusrath Syed", 
     slogin: "syednu",
     scampus: "Davis", 
