@@ -1,0 +1,13 @@
+{
+	"program" : "Dolphin",
+	"dolphin01": [ 
+		{"name": "Dolje", "species": "Mammal", "classification" : "Spinner", "appearance": "black"}
+	],
+	"dolphin02": [ 
+		{"name": "Dolphina", "species": "Mammal", "classification" : "Bottlenose", "appearance": "blue" } 
+	],
+	"dolphin03": [ 
+		{"name": "Dolly", "species": "Mammal", "classification" : "Amazon River", "appearance": "pink"} 
+	]
+	
+}
