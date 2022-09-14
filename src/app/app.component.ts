@@ -36,5 +36,5 @@ export class AppComponent {
     sname: "Nusrath Syed", 
     slogin: "syednu",
     scampus: "Davis", 
-    stitle: "Assignment 4"};
+    stitle: "Animal Angular Project"};
 }
